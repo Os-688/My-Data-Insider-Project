@@ -26,7 +26,10 @@ Para ejecutar el proyecto, se recomienda ejecutar el notebook en Google Colab. S
 - Graficas de barras horizontales.
 - Sublienzos y ajustes extra como simbologias, lineas, textos.
 - API Polygon.io (Recoleccion de historico de empresas)
-- Biblioteca fuzzywuzzy (Busqueda de valores en variables)
+- Biblioteca fuzzywuzzy (Busqueda de coincidencias y puntajes en listas)
+- Biblioteca re (Busqueda de coincidencias)
+- Blblioteca protly.express (Realizacion de grafica de carreras)
+- Biblioteca bar_chart_race (Realizacion de grafica de carreras)
 
 
 ## Requisitos Previos
@@ -37,26 +40,25 @@ Para ejecutar el proyecto, se recomienda ejecutar el notebook en Google Colab. S
 ### Otros Entornos
 1. Instala las siguientes bibliotecas:
    
-    - Pandas
-    - NumPy
-    - Matplotlib
-    - fuzzywuzzy
-    - python-Levenshtein
-    - Requests
-    - time
+   - Pandas
+   - NumPy
+   - Matplotlib
+   - fuzzywuzzy
+   - python-Levenshtein
+   - Requests
+   - seaborn
+   - plotly.express
+   - bar_chart_race
 
 
 ```python
 pip install pandas
-pip install numpy
-pip install matplotlib
-pip install yfinance
 pip install requests
-pip install beautifulsoup4
-pip install TA-Lib  # para instalar TA-Lib (Talib), es posible que necesites pasos adicionales dependiendo del sistema operativo
-pip install requests-cache
-pip install requests-ratelimiter
-pip install pyrate-limiter
+pip install fuzzywuzzy
+pip install seaborn
+pip install matplotlib
+pip install plotly
+pip install bar_chart_race
 ```
 
 ## Instalación
