@@ -4,14 +4,14 @@
 
 
 <p align="center">
-  <img src="" alt="">
+  <img src="Imagenes/Grafica7.PNG" alt="Grafica de cloropletas">
 </p>
 
 ## Descripción:
 
 Data Insider es un proyecto que practica el tratamiento de datos y creación de graficos que muestren estos datos de forma adecuada.
 
-![Grafica de decision]()
+![Grafica de barras de carreras](Imagenes/Grafica6.PNG)
 
 ## Instrucciones de Uso
 
@@ -19,7 +19,7 @@ Para ejecutar el proyecto, se recomienda ejecutar el notebook en Google Colab. S
 
 ## Características Principales
 
-- Graficas de carrera de barras.
+- Graficas de carrera de barras en video y manual.
 - Grafica de mapa de cloropletas.
 - Graficas de dispersion de burbujas.
 - Graficas de barras apiladas y agrupadas.
@@ -30,6 +30,18 @@ Para ejecutar el proyecto, se recomienda ejecutar el notebook en Google Colab. S
 - Biblioteca re (Busqueda de coincidencias)
 - Blblioteca protly.express (Realizacion de grafica de carreras)
 - Biblioteca bar_chart_race (Realizacion de grafica de carreras)
+
+![Grafica de barras horizontales](Imagenes/Grafica1.PNG)
+
+![Grafica de calor](Imagenes/Grafica5.PNG)
+
+![Grafica con sublienzo](Imagenes/Grafica4.PNG)
+
+![Graficas de lineas](Imagenes/Grafica3.PNG)
+
+![Graficas de lineas](Imagenes/Grafica2.PNG)
+
+
 
 
 ## Requisitos Previos
@@ -59,6 +71,7 @@ pip install seaborn
 pip install matplotlib
 pip install plotly
 pip install bar_chart_race
+pip install numpy
 ```
 
 ## Instalación
@@ -67,8 +80,8 @@ Para instalar el proyecto, sigue la secuencia de ejecución en Google Colab, la 
 
 ## Ejemplos de Uso
 
-La ejecucion de las celdas es lineal.
-![Ejemplo visual del texto de arriba](images/ejemplo%20de%20uso.PNG)
+La ejecucion de las celdas es lineal. Podras ver todos los graficos y codigo en funcionamiento siguiendo la linea de ejecución.
+![Ejemplo visual del texto de arriba](Imagenes/linea_ejecucion.PNG)
 
 ## Autor
 
